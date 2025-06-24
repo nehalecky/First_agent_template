@@ -21,5 +21,6 @@ jobs:
       run: |
         git config --global user.email "nehalecky@gmail.com"
         git config --global user.name "nehalecky"
+        git config --global credential.helper ""
         git remote add space https://nehalecky:$HF_TOKEN@huggingface.co/spaces/nehalecky/First_agent_template
         git push space main
